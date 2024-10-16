@@ -126,3 +126,4 @@ C:\Users\autologon\Laura\Maiara\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlit
 C:\Users\autologon\Laura\Maiara\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\autologon\Laura\Maiara\obj\Debug\net8.0\Maiara.csproj.AssemblyReference.cache
 C:\Users\autologon\Laura\Maiara\obj\Debug\net8.0\Maiara.csproj.Up2Date
+C:\Users\autologon\Laura\Maiara\obj\Debug\net8.0\Maiara.sourcelink.json

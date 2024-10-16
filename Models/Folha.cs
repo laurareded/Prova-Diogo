@@ -1,4 +1,5 @@
-﻿namespace Maiara;
+﻿
+namespace Maiara.Models;
 
 public class Folha
 {

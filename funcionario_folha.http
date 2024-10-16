@@ -1,9 +1,9 @@
 ### testando raiz do programa
-GET http://localhost:5205/Maiara
+GET http://localhost:5205
 
 
 ### Criação de um novo funcionário
-POST  http://localhost:5205/maiara/funcionario/cadastrar
+POST http://localhost:5205/api/funcionarios/cadastrar
 Content-Type: application/json
 
 {
@@ -12,12 +12,12 @@ Content-Type: application/json
 }
 
 ### Obtenção de todos os funcionários
-GET http://localhost:5205/maiara/funcionario/listar
+GET http://localhost:5205/api/funcionarios/listar
 
 # FOLHA ############################################
 
 ### Criação de uma nova folha
-POST http://localhost:5205/maiara/folha/cadastrar
+POST http://localhost:5205/api/folhas/cadastrar
 Content-Type: application/json
 
 {
@@ -29,7 +29,7 @@ Content-Type: application/json
 }
 
 ### Obtenção de todas as folhas
-GET http://localhost:5205/maiara/folha/listar
+GET http://localhost:5205/api/folhas/listar
 
 ### Obtenção de uma folha
-GET http://localhost:5205/maiara/folha/buscar/12345678912/10/2023
+GET http://localhost:5205/api/folhas/buscar/12345678912/10/2023
