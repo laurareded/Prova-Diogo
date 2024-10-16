@@ -1,0 +1,35 @@
+### testando raiz do programa
+GET http://localhost:5205/Maiara
+
+
+### Criação de um novo funcionário
+POST  http://localhost:5205/maiara/funcionario/cadastrar
+Content-Type: application/json
+
+{
+    "nome": "Joao",
+    "cpf" : "12345678912"
+}
+
+### Obtenção de todos os funcionários
+GET http://localhost:5205/maiara/funcionario/listar
+
+# FOLHA ############################################
+
+### Criação de uma nova folha
+POST http://localhost:5205/maiara/folha/cadastrar
+Content-Type: application/json
+
+{
+    "valor": 50,
+    "quantidade" : 1000,
+    "mes" : 10,
+    "ano" : 2023,
+    "funcionarioId" : 1
+}
+
+### Obtenção de todas as folhas
+GET http://localhost:5205/maiara/folha/listar
+
+### Obtenção de uma folha
+GET http://localhost:5205/maiara/folha/buscar/12345678912/10/2023
